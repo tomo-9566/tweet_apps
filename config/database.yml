@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
   pool: 5
   timeout: 5000
 
@@ -35,8 +35,7 @@ production:
   encoding: unicode
   pool: 5
   username: awoaphqtkhdsib
-  password: 779f0a61d901981fa5cbdd895ec15bf3b41f91522d2871
-2bddc6d47385365ffb
+  password: 779f0a61d901981fa5cbdd895ec15bf3b41f91522d28712bddc6d47385365ffb
   hostname: ec2-107-21-233-72.compute-1.amazonaws.com
   port: 5432
   database: d3chns0voku684
